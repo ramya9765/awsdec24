@@ -13,9 +13,9 @@ services:
       retries: 5
       
    product:
-    image: springjpa
+    image: springjparep
     ports:
-      - "9991:8080"
+      - "9992:8080"
     environment:
       - DB_URL=jdbc:mysql://mysqldb:3306/mysql
       - DB_USERNAME=root
